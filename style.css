@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 2px solid rgb(199, 195, 195);
+}
+
+.body img {
+    margin: 10px;
+}
+
+.products {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 405px;
+    cursor: pointer;
+
+}
+
+.product {
+    padding-left: 125px;
+}
+
+.product:hover {
+    text-decoration: underline;
+    color: rgb(212, 131, 107);
+}
+
+#profile {
+    border: 1px solid rgb(8, 8, 8);
+    margin-left: 94px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.scroll {
+    margin-left: 84px;
+    margin-top: 14px;
+    width: 325px;
+    height: 68vh;
+    border: 2px solid rgb(165, 164, 164);
+    overflow: scroll;
+    padding-left: 17px;
+    cursor: pointer;
+    /* margin-top: 12px; */
+}
+
+.scroll p {
+    margin-top: 14px;
+}
+
+.scroll p:hover {
+    background-color: rgb(169, 231, 233);
+}
+
+.data {
+    display: flex;
+}
+
+.input {
+    margin-top: 14px;
+    margin-left: 33px;
+
+
+}
+
+.input ul li {
+    padding: 3px;
+    margin-top: 14px;
+    margin-left: 54px;
+}
+
+#price {
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+.para{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 30px;
+    width: 450px;
+    height: 230px;
+   background-color: rgb(233, 233, 233);
+   border-radius: 4px;
+   color: rgb(204, 42, 2);
+}
+.para p{
+    padding:10px;
+}
+#note:hover{
+    color: blue;
+}
+#notee{
+    margin-top: 9px ;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .body {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            border: 2px solid rgb(199, 195, 195);
+        }
+
+        .body img {
+            margin: 10px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            margin-left: 405px;
+            cursor: pointer;
+
+        }
+
+        .product {
+            padding-left: 125px;
+        }
+
+        .product:hover {
+            text-decoration: underline;
+            color: rgb(212, 131, 107);
+        }
+
+        #profile {
+            border: 1px solid rgb(8, 8, 8);
+            margin-left: 94px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        .scroll {
+            margin-left: 84px;
+            margin-top: 14px;
+            width: 325px;
+            height: 68vh;
+            border: 2px solid rgb(165, 164, 164);
+            overflow: scroll;
+            padding-left: 17px;
+            cursor: pointer;
+            /* margin-top: 12px; */
+        }
+
+        .scroll p {
+            margin-top: 14px;
+        }
+
+        .scroll p:hover {
+            background-color: rgb(169, 231, 233);
+        }
+
+        .data {
+            display: flex;
+        }
+
+        .input {
+            margin-top: 14px;
+            margin-left: 33px;
+
+
+        }
+
+        .input ul li {
+            padding: 3px;
+            margin-top: 14px;
+            margin-left: 54px;
+        }
+
+        #price {
+            margin-top: 29px;
+            margin-bottom: 29px;
+        }
+        .para{
+            margin-left: 50px;
+            margin-top: 50px;
+            padding: 30px;
+            width: 450px;
+            height: 230px;
+           background-color: rgb(233, 233, 233);
+           border-radius: 4px;
+           color: rgb(204, 42, 2);
+        }
+        .para p{
+            padding:10px;
+        }
+        #note:hover{
+            color: blue;
+        }
+        #notee{
+            margin-top: 9px ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <img src="techreviewer.jpg" alt="">
+        <input type="text" name="text" id="search" placeholder="search...">
+        <img src="search.png" alt="searchbox" width="20px" height="20px">
+        <div class="products">
+
+            <p class="product">Top Ratings</p>
+            <p class="product">Industry Showcase</p>
+            <p class="product">Blog</p>
+            <p class="products product" id="profile">PROFILE</p>
+        </div>
+    </div>
+    <div class="data">
+
+        <aside class="scroll">
+            <p>which website is best for web development??</p>
+            <p>Github</p>
+            <p>CSS-Tricks</p>
+            <p>Indie Hackers</p>
+            <p>Stack Overflow</p>
+            <p>DZone</p>
+            <p>Hackernews</p>
+            <p>W3schools</p>
+            <p>Tuts+</p>
+            <p>MDN Web Docs</p>
+            <p>WPbeginner (Wordpress)</p>
+            <p>TutorialZine(JQuery)</p>
+            <p>Dev.to</p>
+            <p>Html5 Doctor</p>
+            <p>SitePoint</p>
+            <p>Noupe</p>
+            <p>What sites do web designers use??</p>
+            <p>Web designers Depot</p>
+            <p>Smashing Magazine</p>
+            <p>Dribbble</p>
+            <p>Web Designer wall</p>
+            <p>1stwebdesigner</p>
+            <p>Web appears</p>
+            <p>What is the world's largest web developer site?</p>
+            <p>Conclusion</p>
+        </aside>
+        <div class="input">
+            <h2>Key Metrics</h2>
+            <ul>
+            <li><b>Global rank: </b>#73</li>
+                <li><b>Total Visit: </b>380.8M</li>
+            </ul>
+            <h2 id="price">Pricing:</h2>
+            <ul>
+                <li><b>Free</b></li>
+                <li><b>Team</b>$4 per user/month</li>
+                <li><b>Enterprise</b>$21 per user/month</li>
+            </ul>
+            <div class="para">
+                <input type="checkbox"><b style="font-size: 23px; color: black;" > Looking for Top wev developer?</b>
+               
+                <p id="notee">Top Web Development Companies</p>
+                <p>Top WordPress developers</p>
+                <p>Top Ruby on Rails developers</p>
+                <p>Top PHP Developers</p>
+                <p id="note" style="font-size: 12px; cursor: pointer;">View all ratings</p>
+        </div>
+        </div>
+        </div>
+       
+</body>
+
+</html>
